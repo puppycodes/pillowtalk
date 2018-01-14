@@ -1,3 +1,5 @@
+
+
 /**
  * Site header
  */
@@ -16,14 +18,14 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    color: $text-color;
+    color: $brand-color;
 
     &,
     &:visited {
-        color: $text-color;
+        color: $brand-color;
     }
     &:hover {
-      color: $active-color;
+      color: $brand-color;
     }
 }
 
