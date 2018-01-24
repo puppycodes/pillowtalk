@@ -8,12 +8,13 @@
     {% include header.html %}
     <div class="overlay"></div>
     <div class="bg"></div>
+
     <div class="page-content">
       <div class="wrapper">
-        {{ content }}
+          {% include shapes.html %}
       </div>
     </div>
-  {% include shapes.html %}
+
     {% include footer.html %}
     {% include end-scripts.html %}
   </body>

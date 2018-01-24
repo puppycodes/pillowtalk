@@ -4,31 +4,22 @@
   </svg>
 </div>
 
-<div class="content-wrap">
-  <div class="content content--layout content--layout-1">
-
+{% assign sorted_pages = site.pages | sort:"order"%}
+{% for page in sorted_pages %}
+{% if page.title %}
+<div class="content-wrap {% if page.full == 1 %}full{% endif %}">
+  <div class="content content--layout">
+    <span>
+      <a class="hash {% if page.hide-title == 1 %}hide-title{% endif %}" name="{{ page.title | downcase | replace: ' ', '-' }}">{{ page.title }}</a>
+      <br>{{ page.content }}
+    </span>
   </div>
 </div>
+{% endif %}
+{% endfor %}
 
-<div class="content-wrap">
-  <div class="content content--layout content--layout-2">
 
-  </div>
-</div>
 
-<div class="content-wrap">
-  <div class="content content--layout content--layout-3">
-
-  </div>
-</div>
-
-<div class="content-wrap">
-  <div class="content content--layout content--layout-4">
-
-  </div>
-</div>
-
-<!-- Related demos -->
 <section class="content content--related">
 
 
