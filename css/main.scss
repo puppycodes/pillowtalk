@@ -41,6 +41,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Colette';
+    src: url('../fonts/ColetteBold-Regular.woff2') format('woff2'),
+        url('../fonts/ColetteBold-Regular.woff') format('woff'),
+        url('../fonts/ColetteBold-Regular.svg#ColetteBold-Regular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
 // Our variables
 $base-font-family: Circular Std Book;
 $title-font-family: Dancing Script;
