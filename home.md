@@ -8,4 +8,4 @@ full: 1
 permalink: /
 ---
 
-<img src="/assets/crew.jpg">
+<img src="assets/crew.jpg">
