@@ -42,7 +42,7 @@
 }
 
 @font-face {
-    font-family: 'Colette Bold';
+    font-family: 'Colette';
     src: url('../fonts/ColetteBold-Regular.woff2') format('woff2'),
         url('../fonts/ColetteBold-Regular.woff') format('woff'),
         url('../fonts/ColetteBold-Regular.svg#ColetteBold-Regular') format('svg');
@@ -196,7 +196,7 @@ a.page-link:hover {
     background-color: #fff6f661;
     display: inline-block;
     clear: right;
-    font-family: "Colette Bold";
+    font-family: colette bold;
 }
 
 .hash {
@@ -230,7 +230,7 @@ a.page-link:hover {
   background-color: transparent;
   width: 100%;
   max-width: 100%;
-  top: -50px;
+  top: -80px;
   position: relative;
   border: none;
 }
